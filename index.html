@@ -6,12 +6,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Stretch Records — Startupistan Practice</title>
 	<style>
-		body { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; margin: 0; padding: 2rem; background:#f7f7f8; color:#111 }
+		body { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; margin: 0; padding: 1.25rem; background:#f7f7f8; color:#111 }
 		header { display:flex; align-items:center; gap:1rem }
 		.logo { width:56px; height:56px; background:#222; border-radius:6px }
-		main { max-width:900px; margin-top:1.5rem }
-		.grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:1rem; }
-		.card { background:#fff; padding:1rem; border-radius:8px; box-shadow:0 1px 2px rgba(0,0,0,0.06) }
+		main { max-width:1200px; width:100%; margin:1.5rem auto 0; }
+		.grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:0.85rem; }
+		.card { background:#fff; padding:0.95rem; border-radius:8px; box-shadow:0 1px 2px rgba(0,0,0,0.06); display:flex; flex-direction:column; gap:0.75rem; }
+		.card img { width:100%; height:auto; display:block; border-radius:8px; }
 		footer { margin-top:2rem; color:#666; font-size:0.9rem }
 	</style>
 </head>
@@ -25,182 +26,177 @@
 	</header>
 
 	<main>
+        <section>
+            <h1>The Whole Roster.</h1>
+            <p>Five artists, each with five songs and durations. This file mirrors the upstream source of truth
+            (CLAUDE-DESIGN-HANDOFF-upstream.md, from the design sessions); type names and numbers exactly as written. Totals are the
+            hand-added sum of the five durations, verified. This dataset carries into Course 07, where it becomes the data the
+            learners' JavaScript works on.</p>
+            <button>
+                <h3>Pinkfong</h3>
+            </button>
+            <br><br>
+            <button>
+                <h3>Adriano Celentano</h3>
+            </button>
+            <br><br>
+            <button>
+                <h3>Asake</h3>
+            </button>
+            <br><br>
+            <button>
+                <h3>Miyagi & Andy Panda</h3>
+            </button>
+            <br><br>
+            <button>
+                <h3>Johnny Cash</h3>
+            </button>
+            <br><br>
+        </section>
 		<section>
-			<h1>The Whole Roster.</h1>
-            <p>Children's music, Italian pop, Afrobeats, hip-hop and country. Every artist on the label, with their five most-streamed songs and how long each one runs.</p>
-			<button><h3>Pinkfong</h3></button>
-            <br><br>
-            <button><h3>Adriano Celentano</h3></button>
-            <br><br>
-            <button><h3>Asake</h3></button>
-            <br><br>
-            <button><h3>Miyagi & Andy Panda</h3></button>
-            <br><br>
-            <button><h3>Johnny Cash</h3></button>
-            <br><br>
             <section>
                 <img src="images/pinkfong.jpeg" alt="Pinkfong" style="width:20%; border-radius:8px">
                 <p><i>Children's music</i></p>
+                <p>The children's music powerhouse behind the most-watched video on the internet. Short, loud, unbelievably sticky.</p>
                 <h2> PINKFONG</h2>
             </section>
 			<div class="grid">
 				<article class="card">
                     <img src="images/pinkfong.jpeg" alt="Pinkfong" style="width:100%; border-radius:8px">
-					<h3>EP — Sunrise Loop</h3>
-					<p>Minimal electronic textures recorded in 2026. 4 tracks · 18:12</p>
+					<h3>Baby Shark</h3>      <h3>2:16</h3>
 				</article>
 				<article class="card">
                     <img src="images/pinkfong.jpeg" alt="Pinkfong" style="width:100%; border-radius:8px">
-					<h3>Single — Night Drive</h3>
-					<p>Synth-driven single with live bass and analog warmth.</p>
+					<h3>Wheels on the Bus</h3>      <h3>2:35</h3>
 				</article>
 				<article class="card">
                     <img src="images/pinkfong.jpeg" alt="Pinkfong" style="width:100%; border-radius:8px">
-					<h3>Compilation — Friends & Fellows</h3>
-					<p>Curated tracks from local artists. Supporting the community.</p>
+					<h3>Five little monkeys</h3>      <h3>2:05</h3>
 				</article>
                 <article class="card">
                     <img src="images/pinkfong.jpeg" alt="Pinkfong" style="width:100%; border-radius:8px">
-                    <h3>Compilation — Friends & Fellows</h3>
-                    <p>Curated tracks from local artists. Supporting the community.</p>
+                    <h3>Monkey Banana</h3>      <h3>2:24</h3>
                 </article>
                 <article class="card">
                     <img src="images/pinkfong.jpeg" alt="Pinkfong" style="width:100%; border-radius:8px">
-                    <h3>Compilation — Friends & Fellows</h3>
-                    <p>Curated tracks from local artists. Supporting the community.</p>
+                    <h3>Shark Family</h3>               <h3>2:11</h3>
                 </article>
 			</div>
             <br>
             <section>
-                <img src="images/pinkfong.jpeg" alt="Pinkfong" style="width:20%; border-radius:8px">
-                <p><i>Children's music</i></p>
-                <h2> PINKFONG</h2>
+                <img src="images/adriano-celentano.jpg" alt="Adriano Celentano" style="width:20%; border-radius:8px">
+                <p><i>Italian pop</i></p>
+                Sixty years of Italian pop in one voice: rock and roll imported, rewritten and sung back louder.
+                <h2> ADRIANO CELENTANO</h2>
                 
             </section>
             <div class="grid">
                 <article class="card">
-                    <img src="images/pinkfong.jpeg" alt="Pinkfong" style="width:100%; border-radius:8px">
-                    <h3>EP — Sunrise Loop</h3>
-                    <p>Minimal electronic textures recorded in 2026. 4 tracks · 18:12</p>
+                    <img src="images/adriano-celentano.jpg" alt="Adriano Celentano" style="width:100%; border-radius:8px">
+                    <h3>Azzurro</h3>     <h3>3:41</h3>
                 </article>
                 <article class="card">
-                    <img src="images/pinkfong.jpeg" alt="Pinkfong" style="width:100%; border-radius:8px">
-                    <h3>Single — Night Drive</h3>
-                    <p>Synth-driven single with live bass and analog warmth.</p>
+                    <img src="images/adriano-celentano.jpg" alt="Adriano Celentano" style="width:100%; border-radius:8px">
+                    <h3>L'emozione non ha voce</h3>     <h3>4:13</h3>
                 </article>
                 <article class="card">
-                    <img src="images/pinkfong.jpeg" alt="Pinkfong" style="width:100%; border-radius:8px">
-                    <h3>Compilation — Friends & Fellows</h3>
-                    <p>Curated tracks from local artists. Supporting the community.</p>
+                    <img src="images/adriano-celentano.jpg" alt="Adriano Celentano" style="width:100%; border-radius:8px">
+                    <h3>Il ragazzo della via Gluck</h3>    <h3>4:16</h3>
                 </article>
                 <article class="card">
-                    <img src="images/pinkfong.jpeg" alt="Pinkfong" style="width:100%; border-radius:8px">
-                    <h3>Compilation — Friends & Fellows</h3>
-                    <p>Curated tracks from local artists. Supporting the community.</p>
+                    <img src="images/adriano-celentano.jpg" alt="Adriano Celentano" style="width:100%; border-radius:8px">
+                    <h3>Susanna</h3>       <h3>4:26</h3>
                 </article>
                 <article class="card">
-                    <img src="images/pinkfong.jpeg" alt="Pinkfong" style="width:100%; border-radius:8px">
-                    <h3>Compilation — Friends & Fellows</h3>
-                    <p>Curated tracks from local artists. Supporting the community.</p>
+                    <img src="images/adriano-celentano.jpg" alt="Adriano Celentano" style="width:100%; border-radius:8px">
+                    <h3>Confessa</h3>         <h3>4:16</h3>
                 </article>
             </div>
             <br>
             <section>
-                <img src="images/pinkfong.jpeg" alt="Pinkfong" style="width:20%; border-radius:8px">
-                <p><i>Children's music</i></p>
-                <h2> PINKFONG</h2>
+                <img src="images/asake.jpg" alt="Asake" style="width:20%; border-radius:8px">
+                <p><i>Afrobeats</i></p>
+                Amapiano log drums, fuji chants and street-Yoruba hooks. The loudest new voice out of Lagos.
+                <h2> ASAKE</h2>
             </section>
             <div class="grid">
                 <article class="card">
-                    <img src="images/pinkfong.jpeg" alt="Pinkfong" style="width:100%; border-radius:8px">
-                    <h3>EP — Sunrise Loop</h3>
-                    <p>Minimal electronic textures recorded in 2026. 4 tracks · 18:12</p>
+                    <img src="images/asake-ololade.jpg" alt="Asake" style="width:100%; border-radius:8px">
+                    <h3>Sungba</h3>       <h3>2:47</h3>
                 </article>
                 <article class="card">
-                    <img src="images/pinkfong.jpeg" alt="Pinkfong" style="width:100%; border-radius:8px">
-                    <h3>Single — Night Drive</h3>
-                    <p>Synth-driven single with live bass and analog warmth.</p>
+                    <img src="images/asake-mr-money-with-the-vibe.jpg" alt="Asake" style="width:100%; border-radius:8px">
+                    <h3>Joha</h3>       <h3>2:35</h3>
                 </article>
                 <article class="card">
-                    <img src="images/pinkfong.jpeg" alt="Pinkfong" style="width:100%; border-radius:8px">
-                    <h3>Compilation — Friends & Fellows</h3>
-                    <p>Curated tracks from local artists. Supporting the community.</p>
+                    <img src="images/asake-real.jpg" alt="Asake" style="width:100%; border-radius:8px">
+                    <h3>Jogodo</h3>         <h3>3:08</h3>
                 </article>
                 <article class="card">
-                    <img src="images/pinkfong.jpeg" alt="Pinkfong" style="width:100%; border-radius:8px">
-                    <h3>Compilation — Friends & Fellows</h3>
-                    <p>Curated tracks from local artists. Supporting the community.</p>
+                    <img src="images/asake-work-of-art.jpg" alt="Asake" style="width:100%; border-radius:8px">
+                    <h3>Amapiano</h3>              <h3>3:22</h3>
                 </article>
                 <article class="card">
-                    <img src="images/pinkfong.jpeg" alt="Pinkfong" style="width:100%; border-radius:8px">
-                    <h3>Compilation — Friends & Fellows</h3>
-                    <p>Curated tracks from local artists. Supporting the community.</p>
+                    <img src="images/asake-work-of-art.jpg" alt="Asake" style="width:100%; border-radius:8px">
+                    <h3>Lonely at the top</h3>              <h3>2:16</h3>
                 </article>
             </div>
             <br>
             <section>
-                <img src="images/pinkfong.jpeg" alt="Pinkfong" style="width:20%; border-radius:8px">
-                <p><i>Children's music</i></p>
-                <h2> PINKFONG</h2>
+                <img src="images/miyagi-and-andy-panda.jpg" alt="Miyagi & Andy Panda" style="width:20%; border-radius:8px">
+                <p><i>Hip-hop</i></p>
+                Two rappers from Vladikavkaz, half sung and half spoken, built on dub basslines and long reverbs.
+                <h2> MIYAGI & ANDY PANDA</h2>
             </section>
             <div class="grid">
                 <article class="card">
-                    <img src="images/pinkfong.jpeg" alt="Pinkfong" style="width:100%; border-radius:8px">
-                    <h3>EP — Sunrise Loop</h3>
-                    <p>Minimal electronic textures recorded in 2026. 4 tracks · 18:12</p>
+                    <img src="images/miyagi-kosandra.jpg" alt="Miyagi & Andy Panda" style="width:100%; border-radius:8px">
+                    <h3>Kosandra</h3>     <h3>3:18</h3>
                 </article>
                 <article class="card">
-                    <img src="images/pinkfong.jpeg" alt="Pinkfong" style="width:100%; border-radius:8px">
-                    <h3>Single — Night Drive</h3>
-                    <p>Synth-driven single with live bass and analog warmth.</p>
+                    <img src="images/miyagi-yamakasi.jpg" alt="Miyagi & Andy Panda" style="width:100%; border-radius:8px">
+                    <h3>Utopia</h3>              <h3>3:00</h3>
                 </article>
                 <article class="card">
-                    <img src="images/pinkfong.jpeg" alt="Pinkfong" style="width:100%; border-radius:8px">
-                    <h3>Compilation — Friends & Fellows</h3>
-                    <p>Curated tracks from local artists. Supporting the community.</p>
+                    <img src="images/miyagi-yamakasi.jpg" alt="Miyagi & Andy Panda" style="width:100%; border-radius:8px">
+                    <h3>Minor</h3>              <h3>3:13</h3>
                 </article>
                 <article class="card">
-                    <img src="images/pinkfong.jpeg" alt="Pinkfong" style="width:100%; border-radius:8px">
-                    <h3>Compilation — Friends & Fellows</h3>
-                    <p>Curated tracks from local artists. Supporting the community.</p>
+                    <img src="images/miyagi-saloon.jpg" alt="Miyagi & Andy Panda" style="width:100%; border-radius:8px">
+                    <h3>Saloon</h3>              <h3>2:46</h3>
                 </article>
                 <article class="card">
-                    <img src="images/pinkfong.jpeg" alt="Pinkfong" style="width:100%; border-radius:8px">
-                    <h3>Compilation — Friends & Fellows</h3>
-                    <p>Curated tracks from local artists. Supporting the community.</p>
+                    <img src="images/miyagi-i-got-love.jpg" alt="Miyagi & Andy Panda" style="width:100%; border-radius:8px">
+                    <h3>I Got Love</h3>              <h3>4:04</h3>
                 </article>
             </div>
             <br>
             <section>
-                <img src="images/pinkfong.jpeg" alt="Pinkfong" style="width:20%; border-radius:8px">
+                <img src="images/johnny-cash.jpg" alt="Johnny Cash" style="width:20%; border-radius:8px">
                 <p><i>Children's music</i></p>
-                <h2> PINKFONG</h2>
+                The man in black. Three chords, the truth, and a baritone that outlasted every genre it was filed under.
+                <h2> JOHNNY CASH</h2>
             </section>
             <div class="grid">
                 <article class="card">
-                    <img src="images/pinkfong.jpeg" alt="Pinkfong" style="width:100%; border-radius:8px">
-                    <h3>EP — Sunrise Loop</h3>
-                    <p>Minimal electronic textures recorded in 2026. 4 tracks · 18:12</p>
+                    <img src="images/johnny-cash.jpg" alt="Johnny Cash" style="width:100%; border-radius:8px">
+                    <h3>Hurt</h3>              <h3>3:36</h3>
                 </article>
                 <article class="card">
-                    <img src="images/pinkfong.jpeg" alt="Pinkfong" style="width:100%; border-radius:8px">
-                    <h3>Single — Night Drive</h3>
-                    <p>Synth-driven single with live bass and analog warmth.</p>
+                    <img src="images/johnny-cash.jpg" alt="Johnny Cash" style="width:100%; border-radius:8px">
+                    <h3>Ring of Fire</h3>              <h3>2:38</h3>
                 </article>
                 <article class="card">
-                    <img src="images/pinkfong.jpeg" alt="Pinkfong" style="width:100%; border-radius:8px">
-                    <h3>Compilation — Friends & Fellows</h3>
-                    <p>Curated tracks from local artists. Supporting the community.</p>
+                    <img src="images/johnny-cash.jpg" alt="Johnny Cash" style="width:100%; border-radius:8px">
+                    <h3>Highwayman</h3>              <h3>3:03</h3>
                 </article>
                 <article class="card">
-                    <img src="images/pinkfong.jpeg" alt="Pinkfong" style="width:100%; border-radius:8px">
-                    <h3>Compilation — Friends & Fellows</h3>
-                    <p>Curated tracks from local artists. Supporting the community.</p>
+                    <img src="images/johnny-cash.jpg" alt="Johnny Cash" style="width:100%; border-radius:8px">
+                    <h3>God's gonna cut you down</h3>         <h3>2:38</h3>
                 </article>
                 <article class="card">
-                    <img src="images/pinkfong.jpeg" alt="Pinkfong" style="width:100%; border-radius:8px">
-                    <h3>Compilation — Friends & Fellows</h3>
-                    <p>Curated tracks from local artists. Supporting the community.</p>
+                    <img src="images/johnny-cash.jpg" alt="Johnny Cash" style="width:100%; border-radius:8px">
+                    <h3>Ghost Riders in the sky</h3>          <h3>3:45</h3>
                 </article>
             </div>
 		</section>
@@ -209,6 +205,27 @@
 			<h2>About</h2>
 			<p>Stretch Records is an indie label focused on experimental electronic music, based in Startupistan. This page is a simple static demo for development practice.</p>
 		</section>
+        <section>
+            <h2>Newsletter</h2>
+            <p>Subscribe to our newsletter to stay updated on new releases and events.</p>
+        </section>
+        <div>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="artist">Favorite Artist:</label>
+                <input type="text" id="artist" name="artist" required>
+                <br>
+                <label for="contact">Phone:</label>
+                <input type="tel" id="contact" name="contact" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
 
 		<footer>
 			© Stretch Records — Built for practice
