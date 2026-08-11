@@ -13,6 +13,14 @@
       "genre": "Italian pop",
       "image": "images/adriano-celentano.jpg",
       "total": "20:52"
+    },
+    {
+      "name": "Audit Artist",
+      "genre": "Audit Genre",
+      "image": "images/pinkfong.jpeg",
+      "total": "0:00",
+      "description": "Added from the form",
+      "id": 3
     }
   ]
 }
