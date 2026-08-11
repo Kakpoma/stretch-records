@@ -201,25 +201,22 @@
             <p>Subscribe to our newsletter to stay updated on new releases and events.</p>
         </section>
         <section>
-            <h2>Lesson 2 Demo</h2>
+            <h2>Lesson 4 Demo</h2>
             <p id="loading-status">Loading artists...</p>
-            <button id="freeze-button" type="button">Freeze the page</button>
+            <div id="label-summary"></div>
         </section>
         <div>
-            <form>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
+            <form id="artist-form">
+                <label for="artist-name-input">Artist name:</label>
+                <input type="text" id="artist-name-input" name="artist-name-input" required>
                 <br>
-                <label for="artist">Favorite Artist:</label>
-                <input type="text" id="artist" name="artist" required>
+                <label for="artist-genre-input">Genre:</label>
+                <input type="text" id="artist-genre-input" name="artist-genre-input" required>
                 <br>
-                <label for="contact">Phone:</label>
-                <input type="tel" id="contact" name="contact" required>
+                <label for="artist-image-input">Image path:</label>
+                <input type="text" id="artist-image-input" name="artist-image-input">
                 <br>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <br>
-                <button type="submit">Subscribe</button>
+                <button type="submit">Add artist</button>
             </form>
         </div>
 

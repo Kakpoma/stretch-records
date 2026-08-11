@@ -1,0 +1,18 @@
+{
+  "artists": [
+    {
+      "id": 1,
+      "name": "Pinkfong",
+      "genre": "Children's music",
+      "image": "images/pinkfong.jpeg",
+      "total": "11:31"
+    },
+    {
+      "id": 2,
+      "name": "Adriano Celentano",
+      "genre": "Italian pop",
+      "image": "images/adriano-celentano.jpg",
+      "total": "20:52"
+    }
+  ]
+}
