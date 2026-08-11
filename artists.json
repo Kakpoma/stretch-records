@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Pinkfong",
+    "genre": "Children's music",
+    "description": "The children's music powerhouse behind the most-watched video on the internet. Short, loud, unbelievably sticky.",
+    "image": "images/pinkfong.jpeg",
+    "total": "11:31",
+    "songs": [
+      { "title": "Baby Shark", "duration": "2:16" },
+      { "title": "Wheels on the Bus", "duration": "2:35" },
+      { "title": "Five Little Monkeys", "duration": "2:05" },
+      { "title": "Monkey Banana", "duration": "2:24" },
+      { "title": "Shark Family", "duration": "2:11" }
+    ]
+  },
+  {
+    "name": "Adriano Celentano",
+    "genre": "Italian pop",
+    "description": "Sixty years of Italian pop in one voice: rock and roll imported, rewritten and sung back louder.",
+    "image": "images/adriano-celentano.jpg",
+    "total": "20:52",
+    "songs": [
+      { "title": "Azzurro", "duration": "3:41" },
+      { "title": "L'emozione non ha voce", "duration": "4:13" },
+      { "title": "Il ragazzo della via Gluck", "duration": "4:16" },
+      { "title": "Susanna", "duration": "4:26" },
+      { "title": "Confessa", "duration": "4:16" }
+    ]
+  },
+  {
+    "name": "Asake",
+    "genre": "Afrobeats",
+    "description": "Amapiano log drums, fuji chants and street-Yoruba hooks. The loudest new voice out of Lagos.",
+    "image": "images/asake.jpg",
+    "total": "14:08",
+    "songs": [
+      { "title": "Sungba", "duration": "2:47" },
+      { "title": "Joha", "duration": "2:35" },
+      { "title": "Jogodo", "duration": "3:08" },
+      { "title": "Amapiano", "duration": "3:22" },
+      { "title": "Lonely at the Top", "duration": "2:16" }
+    ]
+  },
+  {
+    "name": "Miyagi & Andy Panda",
+    "genre": "Hip-hop",
+    "description": "Two rappers from Vladikavkaz, half sung and half spoken, built on dub basslines and long reverbs.",
+    "image": "images/miyagi-and-andy-panda.jpg",
+    "total": "16:21",
+    "songs": [
+      { "title": "Kosandra", "duration": "3:18" },
+      { "title": "Utopia", "duration": "3:00" },
+      { "title": "Minor", "duration": "3:13" },
+      { "title": "Saloon", "duration": "2:46" },
+      { "title": "I Got Love", "duration": "4:04" }
+    ]
+  },
+  {
+    "name": "Johnny Cash",
+    "genre": "Country",
+    "description": "The man in black. Three chords, the truth, and a baritone that outlasted every genre it was filed under.",
+    "image": "images/johnny-cash.jpg",
+    "total": "15:40",
+    "songs": [
+      { "title": "Hurt", "duration": "3:36" },
+      { "title": "Ring of Fire", "duration": "2:38" },
+      { "title": "Highwayman", "duration": "3:03" },
+      { "title": "God's Gonna Cut You Down", "duration": "2:38" },
+      { "title": "Ghost Riders in the Sky", "duration": "3:45" }
+    ]
+  },
+  {
+    "name": "Burna Boy",
+    "genre": "Afrobeats",
+    "description": "A modern Nigerian voice blending Afro-fusion, street energy, and polished hooks.",
+    "image": "images/asake.jpg",
+    "total": "3:12",
+    "songs": [
+      { "title": "Ye", "duration": "3:12" }
+    ]
+  }
+]
